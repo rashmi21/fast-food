@@ -1,0 +1,58 @@
+#body {
+    border: 2px solid green;
+}
+#footer {
+    border: 2px solid purple;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.nav-items > ul{
+    display: flex;
+}
+.nav-items > ul > li{
+    font-size: 20px;
+    padding: 25px 40px 0 0 ;
+    list-style-type: none;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.cart-logo {
+    width: 100px;
+    height: 100px;
+}
+.search-bar{
+    width: 500px;
+    height: 40px;   
+}
+.search-data{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px 5px;
+}
+.search-button{
+    height: 32px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.restaurent-card {
+    margin: 10px;
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 5px 5px;
+}
+.restaurent-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.card-logo{
+    width: 200px;
+    height: 150px;
+}

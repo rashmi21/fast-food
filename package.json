@@ -1,0 +1,28 @@
+{
+  "name": "fast-food",
+  "version": "1.0.0",
+  "description": "Food Ordering App",
+  "homepage": "https://github.com/rashmi21/fast-food#readme",
+  "bugs": {
+    "url": "https://github.com/rashmi21/fast-food/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashmi21/fast-food.git"
+  },
+  "license": "ISC",
+  "author": "Rashmi Deokar",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
