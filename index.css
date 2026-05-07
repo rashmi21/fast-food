@@ -38,6 +38,10 @@
 .search-button{
     height: 32px;
 }
+.top-rated-filter{
+    height: 32px;
+    margin: 5px 0 0 10px;
+}
 .res-container{
     display: flex;
     flex-wrap: wrap;

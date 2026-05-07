@@ -1,44 +1,3 @@
-import React from "react";
-import ReactDom from "react-dom/client";
-
-const HeaderComponent = () => {
-    return (
-        <div id="header" className="header">
-            <div className="logo-container">
-                <img className="logo" src="https://thumbs.dreamstime.com/b/fast-delivery-food-logo-vector-337616132.jpg"/>
-            </div>
-            <div className="nav-items">
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Cart</li>
-                </ul>
-            </div>
-        </div>
-    )
-}
-const SearchBar = () => {
-    return (
-        <div className="search-bar">
-            <input className="search-data"/>
-            <button className="search-button">Search</button>
-        </div>
-    )
-}
-const RestaurentCard = (props) => {
-    const {cloudinaryImageId, name, cuisines, avgRating, costForTwo, sal  } = props.resData.info
-    return (
-        <div className="restaurent-card">
-            <img className="card-logo" src={'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/'+cloudinaryImageId}/>
-            <h3 className="card-heading">{name}</h3>
-            <h4>{cuisines?.join(", ")}</h4>
-            <h4>{avgRating} Star</h4>
-            <h4>{costForTwo}</h4>
-            <h4>{sal?.slaString}</h4>
-        </div>
-    )
-}
 const restList = [
   {
     info: {
@@ -772,33 +731,5 @@ const restList = [
     widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
 ];
-const BodyComponent = () => {
-    return (
-        <div id="body">
-            <SearchBar/>
-            <div className="res-container">
-                {restList?.map((restaurent) =>  <RestaurentCard key={restaurent.info.id} resData={restaurent}/>)}
-            </div>
-        </div>
-    )
-}
-const FooterComponent = () => {
-    return (
-        <div id="footer">
-            <h1>This is Footer Container</h1>
-        </div>
-    )
-}
 
-const AppContainer = () => {
-    return (
-        <div id="app-container">
-            <HeaderComponent/>
-            <BodyComponent/>
-            <FooterComponent/>
-        </div>
-    )
-}
-
-const root = ReactDom.createRoot(document.getElementById("root"));
-root.render(<AppContainer/>);
+export default restList;
