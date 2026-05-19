@@ -1,0 +1,104 @@
+{
+  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+  "info": {
+    "id": "24437",
+    "name": "Domino's Pizza",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/3/27/981a16ea-e3b2-4a85-8907-9fbc944138b5_24437.JPG",
+    "locality": "Perugate",
+    "areaName": "Sadashiv Peth",
+    "costForTwo": "₹400 for two",
+    "cuisines": ["Pizzas", "Italian", "Pastas", "Desserts"],
+    "avgRating": 4.3,
+    "parentId": "2456",
+    "avgRatingString": "4.3",
+    "totalRatingsString": "6.4K+",
+    "sla": {
+      "deliveryTime": 25,
+      "lastMileTravel": 2.1,
+      "serviceability": "SERVICEABLE",
+      "slaString": "20-25 mins",
+      "lastMileTravelString": "2.1 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2026-05-18 23:59:00",
+      "opened": true
+    },
+    "badges": {
+      "imageBadges": [
+        {
+          "imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
+          "description": "Best in Bolt"
+        },
+        {
+          "imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+          "description": "Best in Pizza"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "Best in Bolt",
+                "imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
+                "theme": ""
+              }
+            },
+            {
+              "attributes": {
+                "description": "Best in Pizza",
+                "imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+                "theme": ""
+              }
+            }
+          ]
+        },
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "₹166 OFF",
+      "subHeader": "ABOVE ₹699",
+      "discountTag": "FLAT DEAL",
+      "headerTypeV2": 12
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+      "aggregatedRating": {
+        "rating": "--"
+      }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+    "context": "seo-data-13f73555-595a-4534-9c98-40437978a03a"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/city/pune/dominos-pizza-perugate-sadashiv-peth-rest24437",
+    "text": "RESTAURANT_MENU",
+    "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
